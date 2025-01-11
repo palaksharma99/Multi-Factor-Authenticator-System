@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #040f3d, #189AB4, #0f4861);
+    align-items: center;
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #052e3f;
+    color: #D4F1F4;
+    margin-bottom: 40px;
+}
+
+#logo{
+    color: #D4F1F4;
+    font-size: xx-large;
+}
+
+#logo .s-a{
+    color: #D4F1F4;
+}
+
+#option{
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#log-in{
+    background-color: #D4F1F4 ;
+    font-size: x-large;
+    color: rgb(27, 26, 26);
+    height: 40px;
+    width: 100px;
+    border-radius: 60px;
+    align-items: center;
+}
+#log-in:hover{
+    background-color: #189AB4;
+}
+#log-in a{
+    text-decoration: none;
+    color: #040f3d;
+}
+
+#sign-up{
+    background-color: #D4F1F4 ;
+    font-size: x-large;
+    color: rgb(27, 26, 26);
+    height: 40px;
+    width: 120px;
+    border-radius: 60px;
+    align-items: center;
+}
+#sign-up:hover{
+    background-color: #189AB4;
+}
+#sign-up a{
+    text-decoration: none;
+    color: #040f3d;
+}
+
+.form-container {
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #D4F1F4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    width: 500px;
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: transparent;
+    background-image: linear-gradient(to right, #040f3d, #189AB4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input {
+    width: 90%;
+    padding: 25px;
+    /* margin-bottom: 5px; */
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    justify-self: center;
+    height: 30px;
+    font-size: 1rem;
+}
+
+button {
+    width: 30%;
+    padding: 15px;
+    background-color: #040f3d;
+    color: #D4F1F4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #189AB4;
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+    color: transparent;
+    background-image: linear-gradient(to right, #040f3d, #189AB4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lower-link{
+    color: #040f3d;
+}

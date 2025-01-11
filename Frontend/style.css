@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #052e3f;
+    color: #D4F1F4;
+}
+
+#logo{
+    font-size: xx-large;
+}
+
+#option{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#log-in{
+    background-color: #D4F1F4 ;
+    font-size: x-large;
+    color: rgb(27, 26, 26);
+    height: 40px;
+    width: 100px;
+    border-radius: 60px;
+}
+#log-in:hover{
+    background-color: #189AB4;
+}
+#log-in a{
+    text-decoration: none;
+    color: #040f3d;
+}
+
+#sign-up{
+    background-color: #D4F1F4 ;
+    font-size: x-large;
+    color: rgb(27, 26, 26);
+    height: 40px;
+    width: 110px;
+    border-radius: 60px;
+}
+#sign-up:hover{
+    background-color: #189AB4;
+}
+#sign-up a{
+    text-decoration: none;
+    color: #040f3d;
+}
+
+#display{
+    background-image: url('../images/b.jpg');
+    background-size:cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    align-content: center;
+    text-shadow: 10px 10px 20px black;
+}
+
+#quote{
+    
+    text-align: center;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#text-left {
+    color: transparent;
+    background-image: linear-gradient(to right, #040f3d, #189AB4, #0f4861);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slideInFromLeft 2s ease-out forwards;
+}
+
+#text-right {
+    color: transparent;
+    background-image: linear-gradient(to right, #040f3d, #189AB4, #0f4861);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slideInFromRight 2s ease-out forwards;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translate3d(-100%,0,0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translate3d(100%, 0, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+.footer-content{
+    padding: 30px;
+    background-color: #052e3f;
+    color: #D4F1F4;
+    display: flex;
+    justify-content: center;
+}
